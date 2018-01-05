@@ -2,7 +2,7 @@
 	'use strict';
 	angular
             .module('app')
-            .controller('TestIndexController', TestIndexControllerController);
+            .controller('TestIndexController', TestIndexController);
 			TestIndexController.$inject = ['$rootScope', '$scope'];
 	function TestIndexController($rootScope, $scope) {
 	    $rootScope.title = "Test Index Controller";	
